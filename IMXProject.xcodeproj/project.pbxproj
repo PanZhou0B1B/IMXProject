@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		0FAD9AD127CCB1B5475B1F64 /* libPods-IMXProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC9E52EFC9CA2B006D55813 /* libPods-IMXProject.a */; };
 		A15FF551200C58C4003D4C07 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A15FF550200C58C4003D4C07 /* AppDelegate.m */; };
-		A15FF554200C58C4003D4C07 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A15FF553200C58C4003D4C07 /* ViewController.m */; };
-		A15FF557200C58C5003D4C07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A15FF555200C58C5003D4C07 /* Main.storyboard */; };
 		A15FF559200C58C5003D4C07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A15FF558200C58C5003D4C07 /* Assets.xcassets */; };
 		A15FF55C200C58C6003D4C07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A15FF55A200C58C6003D4C07 /* LaunchScreen.storyboard */; };
 		A15FF55F200C58C6003D4C07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A15FF55E200C58C6003D4C07 /* main.m */; };
@@ -40,9 +38,6 @@
 		A15FF54C200C58C4003D4C07 /* IMXProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMXProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A15FF54F200C58C4003D4C07 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A15FF550200C58C4003D4C07 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A15FF552200C58C4003D4C07 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A15FF553200C58C4003D4C07 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A15FF556200C58C5003D4C07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A15FF558200C58C5003D4C07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A15FF55B200C58C6003D4C07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A15FF55D200C58C6003D4C07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,6 +48,7 @@
 		A15FF56F200C58C9003D4C07 /* IMXProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMXProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A15FF573200C58C9003D4C07 /* IMXProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMXProjectUITests.m; sourceTree = "<group>"; };
 		A15FF575200C58C9003D4C07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A15FF5A3200C8640003D4C07 /* IMXProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IMXProject-Prefix.pch"; sourceTree = "<group>"; };
 		CEC9E52EFC9CA2B006D55813 /* libPods-IMXProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IMXProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7F9652C900856BB8E0278D7 /* Pods-IMXProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMXProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IMXProject/Pods-IMXProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -118,13 +114,11 @@
 			children = (
 				A15FF54F200C58C4003D4C07 /* AppDelegate.h */,
 				A15FF550200C58C4003D4C07 /* AppDelegate.m */,
-				A15FF552200C58C4003D4C07 /* ViewController.h */,
-				A15FF553200C58C4003D4C07 /* ViewController.m */,
-				A15FF555200C58C5003D4C07 /* Main.storyboard */,
 				A15FF558200C58C5003D4C07 /* Assets.xcassets */,
 				A15FF55A200C58C6003D4C07 /* LaunchScreen.storyboard */,
 				A15FF55D200C58C6003D4C07 /* Info.plist */,
 				A15FF55E200C58C6003D4C07 /* main.m */,
+				A15FF5A3200C8640003D4C07 /* IMXProject-Prefix.pch */,
 			);
 			path = IMXProject;
 			sourceTree = "<group>";
@@ -267,7 +261,6 @@
 			files = (
 				A15FF55C200C58C6003D4C07 /* LaunchScreen.storyboard in Resources */,
 				A15FF559200C58C5003D4C07 /* Assets.xcassets in Resources */,
-				A15FF557200C58C5003D4C07 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +333,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A15FF554200C58C4003D4C07 /* ViewController.m in Sources */,
 				A15FF55F200C58C6003D4C07 /* main.m in Sources */,
 				A15FF551200C58C4003D4C07 /* AppDelegate.m in Sources */,
 			);
@@ -378,14 +370,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A15FF555200C58C5003D4C07 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A15FF556200C58C5003D4C07 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A15FF55A200C58C6003D4C07 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -507,7 +491,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT)/$(PROJECT)-Prefix.pch";
 				INFOPLIST_FILE = IMXProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.--.--.IMXProject";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -521,7 +508,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT)/$(PROJECT)-Prefix.pch";
 				INFOPLIST_FILE = IMXProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.--.--.IMXProject";
 				PRODUCT_NAME = "$(TARGET_NAME)";
