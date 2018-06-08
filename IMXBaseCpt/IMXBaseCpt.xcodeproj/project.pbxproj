@@ -1,0 +1,1271 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		A1133C1C1F1F5D4800D2A774 /* IMXBaseCptAgg */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A1133C1D1F1F5D4800D2A774 /* Build configuration list for PBXAggregateTarget "IMXBaseCptAgg" */;
+			buildPhases = (
+				A1133C201F1F5D5B00D2A774 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = IMXBaseCptAgg;
+			productName = IMXBaseCptAgg;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		A1133CB91F21FCCF00D2A774 /* IMXBaseCpt.h in Headers */ = {isa = PBXBuildFile; fileRef = A1133CB61F21FC5700D2A774 /* IMXBaseCpt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A11D2DAC1FEB8CD00022B274 /* IMXNoPasteTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = A11D2DAA1FEB8CD00022B274 /* IMXNoPasteTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A11D2DAD1FEB8CD00022B274 /* IMXNoPasteTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = A11D2DAB1FEB8CD00022B274 /* IMXNoPasteTextField.m */; };
+		A13E5D3C1FE2AB1C00FCE357 /* IMXTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = A13E5D3A1FE2AB1C00FCE357 /* IMXTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A13E5D3D1FE2AB1C00FCE357 /* IMXTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = A13E5D3B1FE2AB1C00FCE357 /* IMXTextView.m */; };
+		A163310E1FCD2DB50045AEDB /* IMXTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A16331061FCD2DAE0045AEDB /* IMXTabBar.m */; };
+		A163310F1FCD2DB50045AEDB /* IMXTabbarItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A16331071FCD2DB00045AEDB /* IMXTabbarItemModel.m */; };
+		A16331101FCD2DB50045AEDB /* IMXTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = A16331081FCD2DB10045AEDB /* IMXTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A16331111FCD2DB50045AEDB /* IMXTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A16331091FCD2DB10045AEDB /* IMXTabBarViewController.m */; };
+		A16331121FCD2DB50045AEDB /* IMXTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A163310A1FCD2DB20045AEDB /* IMXTabBarItem.m */; };
+		A16331131FCD2DB50045AEDB /* IMXTabBarViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A163310B1FCD2DB20045AEDB /* IMXTabBarViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A16331141FCD2DB50045AEDB /* IMXTabBarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = A163310C1FCD2DB30045AEDB /* IMXTabBarItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A16331151FCD2DB50045AEDB /* IMXTabbarItemModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A163310D1FCD2DB40045AEDB /* IMXTabbarItemModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A16331171FCD2DF30045AEDB /* IMXTabBarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A16331161FCD2DF00045AEDB /* IMXTabBarKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A16331611FCD5E9F0045AEDB /* IMXUIsKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A163315F1FCD5E680045AEDB /* IMXUIsKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A16331621FCD5EA40045AEDB /* IMXLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = A163315E1FCD5E680045AEDB /* IMXLineView.m */; };
+		A16331631FCD5EB40045AEDB /* IMXLineView.h in Headers */ = {isa = PBXBuildFile; fileRef = A16331601FCD5E680045AEDB /* IMXLineView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A16331671FCD60A00045AEDB /* IMXValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = A16331651FCD60930045AEDB /* IMXValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A16331681FCD60A20045AEDB /* IMXValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = A16331661FCD60930045AEDB /* IMXValidator.m */; };
+		A16331771FCEA70E0045AEDB /* IMXTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = A16331751FCEA70E0045AEDB /* IMXTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A16331781FCEA70E0045AEDB /* IMXTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A16331761FCEA70E0045AEDB /* IMXTableView.m */; };
+		A163317C1FCEBB3E0045AEDB /* IMXCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = A163317A1FCEBB3E0045AEDB /* IMXCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A163317D1FCEBB3E0045AEDB /* IMXCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = A163317B1FCEBB3E0045AEDB /* IMXCollectionView.m */; };
+		A163317F1FCEC0BF0045AEDB /* IMXListViewKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A163317E1FCEC0B60045AEDB /* IMXListViewKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A171A1141FC2CED500CC6C6A /* UIColor+IMXColorKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A171A10B1FC2CED500CC6C6A /* UIColor+IMXColorKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A171A1151FC2CED500CC6C6A /* UIColor+IMXColorKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A171A10C1FC2CED500CC6C6A /* UIColor+IMXColorKit.m */; };
+		A171A1161FC2CED500CC6C6A /* UIFont+IMXFontKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A171A10E1FC2CED500CC6C6A /* UIFont+IMXFontKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A171A1171FC2CED500CC6C6A /* UIFont+IMXFontKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A171A10F1FC2CED500CC6C6A /* UIFont+IMXFontKit.m */; };
+		A171A1181FC2CED500CC6C6A /* IMXIconfont.h in Headers */ = {isa = PBXBuildFile; fileRef = A171A1111FC2CED500CC6C6A /* IMXIconfont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A171A1191FC2CED500CC6C6A /* IMXIconfont.m in Sources */ = {isa = PBXBuildFile; fileRef = A171A1121FC2CED500CC6C6A /* IMXIconfont.m */; };
+		A171A11A1FC2CED500CC6C6A /* IMXStyleKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A171A1131FC2CED500CC6C6A /* IMXStyleKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A171A1431FC2CEDC00CC6C6A /* IMXMVIP.h in Headers */ = {isa = PBXBuildFile; fileRef = A171A11C1FC2CEDC00CC6C6A /* IMXMVIP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A171A1441FC2CEDC00CC6C6A /* MTXBaseInteractor.h in Headers */ = {isa = PBXBuildFile; fileRef = A171A11E1FC2CEDC00CC6C6A /* MTXBaseInteractor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A171A1451FC2CEDC00CC6C6A /* MTXBaseInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = A171A11F1FC2CEDC00CC6C6A /* MTXBaseInteractor.m */; };
+		A171A1461FC2CEDC00CC6C6A /* MTXInteractorProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = A171A1201FC2CEDC00CC6C6A /* MTXInteractorProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A171A1471FC2CEDC00CC6C6A /* MTXBasePresenter.h in Headers */ = {isa = PBXBuildFile; fileRef = A171A1231FC2CEDC00CC6C6A /* MTXBasePresenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A171A1481FC2CEDC00CC6C6A /* MTXBasePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = A171A1241FC2CEDC00CC6C6A /* MTXBasePresenter.m */; };
+		A171A1491FC2CEDC00CC6C6A /* MTXPresenterDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A171A1251FC2CEDC00CC6C6A /* MTXPresenterDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A171A14A1FC2CEDC00CC6C6A /* MTXPresenterProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = A171A1261FC2CEDC00CC6C6A /* MTXPresenterProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A171A14B1FC2CEDC00CC6C6A /* EXTScope.h in Headers */ = {isa = PBXBuildFile; fileRef = A171A12B1FC2CEDC00CC6C6A /* EXTScope.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A171A14C1FC2CEDC00CC6C6A /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = A171A12C1FC2CEDC00CC6C6A /* EXTScope.m */; };
+		A171A14D1FC2CEDC00CC6C6A /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = A171A12D1FC2CEDC00CC6C6A /* metamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A171A14E1FC2CEDC00CC6C6A /* IMXObjectExtUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = A171A12E1FC2CEDC00CC6C6A /* IMXObjectExtUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A171A14F1FC2CEDC00CC6C6A /* NSArray+IMXSafeCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = A171A12F1FC2CEDC00CC6C6A /* NSArray+IMXSafeCheck.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A171A1501FC2CEDC00CC6C6A /* NSArray+IMXSafeCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = A171A1301FC2CEDC00CC6C6A /* NSArray+IMXSafeCheck.m */; };
+		A171A1511FC2CEDC00CC6C6A /* NSAttributedString+IMXHighlightKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A171A1311FC2CEDC00CC6C6A /* NSAttributedString+IMXHighlightKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A171A1521FC2CEDC00CC6C6A /* NSAttributedString+IMXHighlightKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A171A1321FC2CEDC00CC6C6A /* NSAttributedString+IMXHighlightKit.m */; };
+		A171A1531FC2CEDC00CC6C6A /* NSDictionary+IMXSafeCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = A171A1331FC2CEDC00CC6C6A /* NSDictionary+IMXSafeCheck.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A171A1541FC2CEDC00CC6C6A /* NSDictionary+IMXSafeCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = A171A1341FC2CEDC00CC6C6A /* NSDictionary+IMXSafeCheck.m */; };
+		A171A1551FC2CEDC00CC6C6A /* NSObject+IMXExtFork.h in Headers */ = {isa = PBXBuildFile; fileRef = A171A1351FC2CEDC00CC6C6A /* NSObject+IMXExtFork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A171A1561FC2CEDC00CC6C6A /* NSObject+IMXExtFork.m in Sources */ = {isa = PBXBuildFile; fileRef = A171A1361FC2CEDC00CC6C6A /* NSObject+IMXExtFork.m */; };
+		A171A1571FC2CEDC00CC6C6A /* NSString+IMXFormatCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = A171A1371FC2CEDC00CC6C6A /* NSString+IMXFormatCheck.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A171A1581FC2CEDC00CC6C6A /* NSString+IMXFormatCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = A171A1381FC2CEDC00CC6C6A /* NSString+IMXFormatCheck.m */; };
+		A171A1591FC2CEDC00CC6C6A /* NSString+IMXSafeCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = A171A1391FC2CEDC00CC6C6A /* NSString+IMXSafeCheck.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A171A15A1FC2CEDC00CC6C6A /* NSString+IMXSafeCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = A171A13A1FC2CEDC00CC6C6A /* NSString+IMXSafeCheck.m */; };
+		A171A15B1FC2CEDC00CC6C6A /* IMXUIKitExtUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = A171A13C1FC2CEDC00CC6C6A /* IMXUIKitExtUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A171A15C1FC2CEDC00CC6C6A /* UIImage+IMXExtFork.h in Headers */ = {isa = PBXBuildFile; fileRef = A171A13D1FC2CEDC00CC6C6A /* UIImage+IMXExtFork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A171A15D1FC2CEDC00CC6C6A /* UIImage+IMXExtFork.m in Sources */ = {isa = PBXBuildFile; fileRef = A171A13E1FC2CEDC00CC6C6A /* UIImage+IMXExtFork.m */; };
+		A171A15E1FC2CEDC00CC6C6A /* UIView+IMXFrameFork.h in Headers */ = {isa = PBXBuildFile; fileRef = A171A13F1FC2CEDC00CC6C6A /* UIView+IMXFrameFork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A171A15F1FC2CEDC00CC6C6A /* UIView+IMXFrameFork.m in Sources */ = {isa = PBXBuildFile; fileRef = A171A1401FC2CEDC00CC6C6A /* UIView+IMXFrameFork.m */; };
+		A171A1601FC2CEDC00CC6C6A /* UIViewController+IMXExtFork.h in Headers */ = {isa = PBXBuildFile; fileRef = A171A1411FC2CEDC00CC6C6A /* UIViewController+IMXExtFork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A171A1611FC2CEDC00CC6C6A /* UIViewController+IMXExtFork.m in Sources */ = {isa = PBXBuildFile; fileRef = A171A1421FC2CEDC00CC6C6A /* UIViewController+IMXExtFork.m */; };
+		A17BA0051FDA952F005FB380 /* IMXCollectionViewTagsFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A17BA0041FDA94FB005FB380 /* IMXCollectionViewTagsFlowLayout.m */; };
+		A17BA0061FDA9532005FB380 /* IMXCollectionViewTagsFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = A17BA0031FDA94FB005FB380 /* IMXCollectionViewTagsFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A17BA0071FDA9534005FB380 /* CHTCollectionViewWaterfallLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = A17BA0021FDA9498005FB380 /* CHTCollectionViewWaterfallLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A17BA0081FDA9536005FB380 /* CHTCollectionViewWaterfallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A17BA0011FDA9498005FB380 /* CHTCollectionViewWaterfallLayout.m */; };
+		A17BA00E1FDA9705005FB380 /* IMXArchiverUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = A17BA00C1FDA9705005FB380 /* IMXArchiverUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A17BA00F1FDA9705005FB380 /* IMXArchiverUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A17BA00D1FDA9705005FB380 /* IMXArchiverUtil.m */; };
+		A19F479D1FD0EFB000527199 /* IMXSegmentModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A19F47951FD0EFAE00527199 /* IMXSegmentModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A19F479E1FD0EFB000527199 /* IMXSegmentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A19F47961FD0EFAF00527199 /* IMXSegmentModel.m */; };
+		A19F479F1FD0EFB000527199 /* IMXSegContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = A19F47971FD0EFAF00527199 /* IMXSegContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A19F47A01FD0EFB000527199 /* IMXSegBaseCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A19F47981FD0EFAF00527199 /* IMXSegBaseCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A19F47A11FD0EFB000527199 /* IMXSegCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = A19F47991FD0EFAF00527199 /* IMXSegCollectionView.m */; };
+		A19F47A21FD0EFB000527199 /* IMXSegCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = A19F479A1FD0EFAF00527199 /* IMXSegCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A19F47A31FD0EFB000527199 /* IMXSegContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = A19F479B1FD0EFAF00527199 /* IMXSegContainer.m */; };
+		A19F47A41FD0EFB000527199 /* IMXSegBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A19F479C1FD0EFB000527199 /* IMXSegBaseCell.m */; };
+		A19F47A61FD0F0D200527199 /* IMXSegmentKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A19F47A51FD0EFC100527199 /* IMXSegmentKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A19F47A71FD0F49B00527199 /* IMXListViewDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = A16331791FCEAB020045AEDB /* IMXListViewDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A19F47AF1FD0F82500527199 /* UIView+IMXSafeArea.h in Headers */ = {isa = PBXBuildFile; fileRef = A19F47AD1FD0F82500527199 /* UIView+IMXSafeArea.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A19F47B01FD0F82500527199 /* UIView+IMXSafeArea.m in Sources */ = {isa = PBXBuildFile; fileRef = A19F47AE1FD0F82500527199 /* UIView+IMXSafeArea.m */; };
+		A19F47B21FD0FA0A00527199 /* IMXSafeAreaKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A19F47B11FD0F9F600527199 /* IMXSafeAreaKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A19F47B51FD101DD00527199 /* UIViewController+IMXSafeArea.h in Headers */ = {isa = PBXBuildFile; fileRef = A19F47B31FD101DD00527199 /* UIViewController+IMXSafeArea.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A19F47B61FD101DD00527199 /* UIViewController+IMXSafeArea.m in Sources */ = {isa = PBXBuildFile; fileRef = A19F47B41FD101DD00527199 /* UIViewController+IMXSafeArea.m */; };
+		A1AB4FBD1FE0D03B0026F74D /* IMXFlatButton.h in Headers */ = {isa = PBXBuildFile; fileRef = A1AB4FBB1FE0D03B0026F74D /* IMXFlatButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1AB4FBE1FE0D03B0026F74D /* IMXFlatButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AB4FBC1FE0D03B0026F74D /* IMXFlatButton.m */; };
+		A1AE2BC31FEA6F4400520978 /* IMXTextShowTableReuseView.h in Headers */ = {isa = PBXBuildFile; fileRef = A1AE2BC11FEA6F4400520978 /* IMXTextShowTableReuseView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1AE2BC41FEA6F4400520978 /* IMXTextShowTableReuseView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AE2BC21FEA6F4400520978 /* IMXTextShowTableReuseView.m */; };
+		A1AED1401FC5623A00BA9424 /* IMXAPPLauncherKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A1AED1381FC5623A00BA9424 /* IMXAPPLauncherKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1AED1411FC5623A00BA9424 /* IMXAPPService.h in Headers */ = {isa = PBXBuildFile; fileRef = A1AED1391FC5623A00BA9424 /* IMXAPPService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1AED1421FC5623A00BA9424 /* IMXAPPServiceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A1AED13A1FC5623A00BA9424 /* IMXAPPServiceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1AED1431FC5623A00BA9424 /* IMXAPPServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AED13B1FC5623A00BA9424 /* IMXAPPServiceManager.m */; };
+		A1AED1441FC5623A00BA9424 /* IMXEntryAPPDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A1AED13C1FC5623A00BA9424 /* IMXEntryAPPDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1AED1451FC5623A00BA9424 /* IMXEntryAPPDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AED13D1FC5623A00BA9424 /* IMXEntryAPPDelegate.m */; };
+		A1AED1461FC5623A00BA9424 /* IMXRootUIAPPService.h in Headers */ = {isa = PBXBuildFile; fileRef = A1AED13E1FC5623A00BA9424 /* IMXRootUIAPPService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1AED1471FC5623A00BA9424 /* IMXRootUIAPPService.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AED13F1FC5623A00BA9424 /* IMXRootUIAPPService.m */; };
+		A1AED1AC1FC6A99300BA9424 /* IMXTipsShowUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AED1AB1FC6A8F500BA9424 /* IMXTipsShowUtil.m */; };
+		A1AED1AD1FC6AA4000BA9424 /* IMXTipsShowUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = A1AED1AA1FC6A8F500BA9424 /* IMXTipsShowUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1AED1C01FC6AF9200BA9424 /* NSString+IMXSecurityFork.h in Headers */ = {isa = PBXBuildFile; fileRef = A1AED1BD1FC6AEDD00BA9424 /* NSString+IMXSecurityFork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1AED1C11FC6AF9400BA9424 /* NSString+IMXSecurityFork.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AED1BE1FC6AEDD00BA9424 /* NSString+IMXSecurityFork.m */; };
+		A1AED1C21FC6AF9900BA9424 /* IMXSecurityKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A1AED1BF1FC6AF0800BA9424 /* IMXSecurityKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1AED1C31FC6AFAB00BA9424 /* STKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AED1B81FC6AE1A00BA9424 /* STKeychain.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A1AED1C41FC6AFAE00BA9424 /* STKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = A1AED1B71FC6AE1A00BA9424 /* STKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1AED1C51FC6AFB300BA9424 /* KeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AED1B61FC6AE1A00BA9424 /* KeyChain.m */; };
+		A1AED1C61FC6AFB500BA9424 /* KeyChain.h in Headers */ = {isa = PBXBuildFile; fileRef = A1AED1B51FC6AE1A00BA9424 /* KeyChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1AED1C71FC6AFB800BA9424 /* IMXPersistenceKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A1AED1B41FC6AE1A00BA9424 /* IMXPersistenceKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1AED1C81FC6AFBA00BA9424 /* IMXDeviceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AED1BB1FC6AE7700BA9424 /* IMXDeviceUtil.m */; };
+		A1AED1C91FC6AFBC00BA9424 /* IMXDeviceUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = A1AED1BA1FC6AE7700BA9424 /* IMXDeviceUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1E5AB731FD5227A00F94B02 /* IMXBaseCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A1E5AB711FD5227A00F94B02 /* IMXBaseCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1E5AB741FD5227A00F94B02 /* IMXBaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E5AB721FD5227A00F94B02 /* IMXBaseCollectionViewCell.m */; };
+		A1E5AB7B1FD522BA00F94B02 /* IMXCollectionReuseView.h in Headers */ = {isa = PBXBuildFile; fileRef = A1E5AB791FD522BA00F94B02 /* IMXCollectionReuseView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1E5AB7C1FD522BA00F94B02 /* IMXCollectionReuseView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E5AB7A1FD522BA00F94B02 /* IMXCollectionReuseView.m */; };
+		A1E5AB7F1FD5234A00F94B02 /* IMXBaseTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A1E5AB7D1FD5234A00F94B02 /* IMXBaseTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1E5AB801FD5234A00F94B02 /* IMXBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E5AB7E1FD5234A00F94B02 /* IMXBaseTableViewCell.m */; };
+		A1E5AB831FD529A700F94B02 /* IMXUITableReuseView.h in Headers */ = {isa = PBXBuildFile; fileRef = A1E5AB811FD529A700F94B02 /* IMXUITableReuseView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1E5AB841FD529A700F94B02 /* IMXUITableReuseView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E5AB821FD529A700F94B02 /* IMXUITableReuseView.m */; };
+		A1E5ABAF1FD555A400F94B02 /* IMXPaddingTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A1E5ABAD1FD555A400F94B02 /* IMXPaddingTableCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1E5ABB01FD555A400F94B02 /* IMXPaddingTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E5ABAE1FD555A400F94B02 /* IMXPaddingTableCell.m */; };
+		A1E5ABC21FD566CD00F94B02 /* IMXButtonTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A1E5ABC01FD566CD00F94B02 /* IMXButtonTableCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1E5ABC31FD566CD00F94B02 /* IMXButtonTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E5ABC11FD566CD00F94B02 /* IMXButtonTableCell.m */; };
+		A1EA55961FD8F12D003354EF /* IMXBaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EA55941FD8F129003354EF /* IMXBaseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1EA55971FD8F12D003354EF /* IMXBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EA55951FD8F129003354EF /* IMXBaseModel.m */; };
+		A1EA55A11FD913BE003354EF /* IMXSingleTextTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EA559F1FD913BE003354EF /* IMXSingleTextTableCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1EA55A21FD913BE003354EF /* IMXSingleTextTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EA55A01FD913BE003354EF /* IMXSingleTextTableCell.m */; };
+		E728C7EC1FE111E5009C2DD5 /* IMXTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = E728C7EA1FE111E5009C2DD5 /* IMXTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E728C7ED1FE111E5009C2DD5 /* IMXTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = E728C7EB1FE111E5009C2DD5 /* IMXTimer.m */; };
+		E728C7FD1FE1407A009C2DD5 /* NSDate+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = E728C7FB1FE1407A009C2DD5 /* NSDate+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E728C7FE1FE1407A009C2DD5 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E728C7FC1FE1407A009C2DD5 /* NSDate+Extension.m */; };
+		E728C8121FE15434009C2DD5 /* UIScrollView+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = E728C8101FE15434009C2DD5 /* UIScrollView+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E728C8131FE15434009C2DD5 /* UIScrollView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E728C8111FE15434009C2DD5 /* UIScrollView+Extension.m */; };
+		E728C8441FE27CE3009C2DD5 /* IMXButton.h in Headers */ = {isa = PBXBuildFile; fileRef = E728C8421FE27CE3009C2DD5 /* IMXButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E728C8451FE27CE3009C2DD5 /* IMXButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E728C8431FE27CE3009C2DD5 /* IMXButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A1133C161F1F584700D2A774 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A1133CA41F21E94B00D2A774 /* IMXBaseCpt-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IMXBaseCpt-Prefix.pch"; sourceTree = "<group>"; };
+		A1133CB61F21FC5700D2A774 /* IMXBaseCpt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMXBaseCpt.h; sourceTree = "<group>"; };
+		A11D2DAA1FEB8CD00022B274 /* IMXNoPasteTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMXNoPasteTextField.h; sourceTree = "<group>"; };
+		A11D2DAB1FEB8CD00022B274 /* IMXNoPasteTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMXNoPasteTextField.m; sourceTree = "<group>"; };
+		A13ABFB61F1F41C900A09D8B /* IMXBaseCpt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IMXBaseCpt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A13ABFBA1F1F41CA00A09D8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A13E5D3A1FE2AB1C00FCE357 /* IMXTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMXTextView.h; sourceTree = "<group>"; };
+		A13E5D3B1FE2AB1C00FCE357 /* IMXTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMXTextView.m; sourceTree = "<group>"; };
+		A16331061FCD2DAE0045AEDB /* IMXTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMXTabBar.m; sourceTree = "<group>"; };
+		A16331071FCD2DB00045AEDB /* IMXTabbarItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMXTabbarItemModel.m; sourceTree = "<group>"; };
+		A16331081FCD2DB10045AEDB /* IMXTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXTabBar.h; sourceTree = "<group>"; };
+		A16331091FCD2DB10045AEDB /* IMXTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMXTabBarViewController.m; sourceTree = "<group>"; };
+		A163310A1FCD2DB20045AEDB /* IMXTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMXTabBarItem.m; sourceTree = "<group>"; };
+		A163310B1FCD2DB20045AEDB /* IMXTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXTabBarViewController.h; sourceTree = "<group>"; };
+		A163310C1FCD2DB30045AEDB /* IMXTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXTabBarItem.h; sourceTree = "<group>"; };
+		A163310D1FCD2DB40045AEDB /* IMXTabbarItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXTabbarItemModel.h; sourceTree = "<group>"; };
+		A16331161FCD2DF00045AEDB /* IMXTabBarKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMXTabBarKit.h; sourceTree = "<group>"; };
+		A163315E1FCD5E680045AEDB /* IMXLineView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMXLineView.m; sourceTree = "<group>"; };
+		A163315F1FCD5E680045AEDB /* IMXUIsKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMXUIsKit.h; sourceTree = "<group>"; };
+		A16331601FCD5E680045AEDB /* IMXLineView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMXLineView.h; sourceTree = "<group>"; };
+		A16331651FCD60930045AEDB /* IMXValidator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMXValidator.h; sourceTree = "<group>"; };
+		A16331661FCD60930045AEDB /* IMXValidator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMXValidator.m; sourceTree = "<group>"; };
+		A16331751FCEA70E0045AEDB /* IMXTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMXTableView.h; sourceTree = "<group>"; };
+		A16331761FCEA70E0045AEDB /* IMXTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMXTableView.m; sourceTree = "<group>"; };
+		A16331791FCEAB020045AEDB /* IMXListViewDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMXListViewDefine.h; sourceTree = "<group>"; };
+		A163317A1FCEBB3E0045AEDB /* IMXCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMXCollectionView.h; sourceTree = "<group>"; };
+		A163317B1FCEBB3E0045AEDB /* IMXCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMXCollectionView.m; sourceTree = "<group>"; };
+		A163317E1FCEC0B60045AEDB /* IMXListViewKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMXListViewKit.h; sourceTree = "<group>"; };
+		A171A10B1FC2CED500CC6C6A /* UIColor+IMXColorKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+IMXColorKit.h"; sourceTree = "<group>"; };
+		A171A10C1FC2CED500CC6C6A /* UIColor+IMXColorKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+IMXColorKit.m"; sourceTree = "<group>"; };
+		A171A10E1FC2CED500CC6C6A /* UIFont+IMXFontKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+IMXFontKit.h"; sourceTree = "<group>"; };
+		A171A10F1FC2CED500CC6C6A /* UIFont+IMXFontKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+IMXFontKit.m"; sourceTree = "<group>"; };
+		A171A1111FC2CED500CC6C6A /* IMXIconfont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXIconfont.h; sourceTree = "<group>"; };
+		A171A1121FC2CED500CC6C6A /* IMXIconfont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMXIconfont.m; sourceTree = "<group>"; };
+		A171A1131FC2CED500CC6C6A /* IMXStyleKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXStyleKit.h; sourceTree = "<group>"; };
+		A171A11C1FC2CEDC00CC6C6A /* IMXMVIP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXMVIP.h; sourceTree = "<group>"; };
+		A171A11E1FC2CEDC00CC6C6A /* MTXBaseInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTXBaseInteractor.h; sourceTree = "<group>"; };
+		A171A11F1FC2CEDC00CC6C6A /* MTXBaseInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTXBaseInteractor.m; sourceTree = "<group>"; };
+		A171A1201FC2CEDC00CC6C6A /* MTXInteractorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTXInteractorProtocol.h; sourceTree = "<group>"; };
+		A171A1231FC2CEDC00CC6C6A /* MTXBasePresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTXBasePresenter.h; sourceTree = "<group>"; };
+		A171A1241FC2CEDC00CC6C6A /* MTXBasePresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTXBasePresenter.m; sourceTree = "<group>"; };
+		A171A1251FC2CEDC00CC6C6A /* MTXPresenterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTXPresenterDelegate.h; sourceTree = "<group>"; };
+		A171A1261FC2CEDC00CC6C6A /* MTXPresenterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTXPresenterProtocol.h; sourceTree = "<group>"; };
+		A171A12B1FC2CEDC00CC6C6A /* EXTScope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTScope.h; sourceTree = "<group>"; };
+		A171A12C1FC2CEDC00CC6C6A /* EXTScope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXTScope.m; sourceTree = "<group>"; };
+		A171A12D1FC2CEDC00CC6C6A /* metamacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metamacros.h; sourceTree = "<group>"; };
+		A171A12E1FC2CEDC00CC6C6A /* IMXObjectExtUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXObjectExtUtil.h; sourceTree = "<group>"; };
+		A171A12F1FC2CEDC00CC6C6A /* NSArray+IMXSafeCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+IMXSafeCheck.h"; sourceTree = "<group>"; };
+		A171A1301FC2CEDC00CC6C6A /* NSArray+IMXSafeCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+IMXSafeCheck.m"; sourceTree = "<group>"; };
+		A171A1311FC2CEDC00CC6C6A /* NSAttributedString+IMXHighlightKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+IMXHighlightKit.h"; sourceTree = "<group>"; };
+		A171A1321FC2CEDC00CC6C6A /* NSAttributedString+IMXHighlightKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+IMXHighlightKit.m"; sourceTree = "<group>"; };
+		A171A1331FC2CEDC00CC6C6A /* NSDictionary+IMXSafeCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+IMXSafeCheck.h"; sourceTree = "<group>"; };
+		A171A1341FC2CEDC00CC6C6A /* NSDictionary+IMXSafeCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+IMXSafeCheck.m"; sourceTree = "<group>"; };
+		A171A1351FC2CEDC00CC6C6A /* NSObject+IMXExtFork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+IMXExtFork.h"; sourceTree = "<group>"; };
+		A171A1361FC2CEDC00CC6C6A /* NSObject+IMXExtFork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+IMXExtFork.m"; sourceTree = "<group>"; };
+		A171A1371FC2CEDC00CC6C6A /* NSString+IMXFormatCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+IMXFormatCheck.h"; sourceTree = "<group>"; };
+		A171A1381FC2CEDC00CC6C6A /* NSString+IMXFormatCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+IMXFormatCheck.m"; sourceTree = "<group>"; };
+		A171A1391FC2CEDC00CC6C6A /* NSString+IMXSafeCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+IMXSafeCheck.h"; sourceTree = "<group>"; };
+		A171A13A1FC2CEDC00CC6C6A /* NSString+IMXSafeCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+IMXSafeCheck.m"; sourceTree = "<group>"; };
+		A171A13C1FC2CEDC00CC6C6A /* IMXUIKitExtUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXUIKitExtUtil.h; sourceTree = "<group>"; };
+		A171A13D1FC2CEDC00CC6C6A /* UIImage+IMXExtFork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+IMXExtFork.h"; sourceTree = "<group>"; };
+		A171A13E1FC2CEDC00CC6C6A /* UIImage+IMXExtFork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+IMXExtFork.m"; sourceTree = "<group>"; };
+		A171A13F1FC2CEDC00CC6C6A /* UIView+IMXFrameFork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+IMXFrameFork.h"; sourceTree = "<group>"; };
+		A171A1401FC2CEDC00CC6C6A /* UIView+IMXFrameFork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+IMXFrameFork.m"; sourceTree = "<group>"; };
+		A171A1411FC2CEDC00CC6C6A /* UIViewController+IMXExtFork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+IMXExtFork.h"; sourceTree = "<group>"; };
+		A171A1421FC2CEDC00CC6C6A /* UIViewController+IMXExtFork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+IMXExtFork.m"; sourceTree = "<group>"; };
+		A17BA0011FDA9498005FB380 /* CHTCollectionViewWaterfallLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHTCollectionViewWaterfallLayout.m; sourceTree = "<group>"; };
+		A17BA0021FDA9498005FB380 /* CHTCollectionViewWaterfallLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHTCollectionViewWaterfallLayout.h; sourceTree = "<group>"; };
+		A17BA0031FDA94FB005FB380 /* IMXCollectionViewTagsFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMXCollectionViewTagsFlowLayout.h; sourceTree = "<group>"; };
+		A17BA0041FDA94FB005FB380 /* IMXCollectionViewTagsFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMXCollectionViewTagsFlowLayout.m; sourceTree = "<group>"; };
+		A17BA00C1FDA9705005FB380 /* IMXArchiverUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMXArchiverUtil.h; sourceTree = "<group>"; };
+		A17BA00D1FDA9705005FB380 /* IMXArchiverUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMXArchiverUtil.m; sourceTree = "<group>"; };
+		A19F47951FD0EFAE00527199 /* IMXSegmentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXSegmentModel.h; sourceTree = "<group>"; };
+		A19F47961FD0EFAF00527199 /* IMXSegmentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMXSegmentModel.m; sourceTree = "<group>"; };
+		A19F47971FD0EFAF00527199 /* IMXSegContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXSegContainer.h; sourceTree = "<group>"; };
+		A19F47981FD0EFAF00527199 /* IMXSegBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXSegBaseCell.h; sourceTree = "<group>"; };
+		A19F47991FD0EFAF00527199 /* IMXSegCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMXSegCollectionView.m; sourceTree = "<group>"; };
+		A19F479A1FD0EFAF00527199 /* IMXSegCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXSegCollectionView.h; sourceTree = "<group>"; };
+		A19F479B1FD0EFAF00527199 /* IMXSegContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMXSegContainer.m; sourceTree = "<group>"; };
+		A19F479C1FD0EFB000527199 /* IMXSegBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMXSegBaseCell.m; sourceTree = "<group>"; };
+		A19F47A51FD0EFC100527199 /* IMXSegmentKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMXSegmentKit.h; sourceTree = "<group>"; };
+		A19F47AD1FD0F82500527199 /* UIView+IMXSafeArea.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+IMXSafeArea.h"; sourceTree = "<group>"; };
+		A19F47AE1FD0F82500527199 /* UIView+IMXSafeArea.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+IMXSafeArea.m"; sourceTree = "<group>"; };
+		A19F47B11FD0F9F600527199 /* IMXSafeAreaKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMXSafeAreaKit.h; sourceTree = "<group>"; };
+		A19F47B31FD101DD00527199 /* UIViewController+IMXSafeArea.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+IMXSafeArea.h"; sourceTree = "<group>"; };
+		A19F47B41FD101DD00527199 /* UIViewController+IMXSafeArea.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+IMXSafeArea.m"; sourceTree = "<group>"; };
+		A1AB4FBB1FE0D03B0026F74D /* IMXFlatButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMXFlatButton.h; sourceTree = "<group>"; };
+		A1AB4FBC1FE0D03B0026F74D /* IMXFlatButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMXFlatButton.m; sourceTree = "<group>"; };
+		A1AE2BC11FEA6F4400520978 /* IMXTextShowTableReuseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMXTextShowTableReuseView.h; sourceTree = "<group>"; };
+		A1AE2BC21FEA6F4400520978 /* IMXTextShowTableReuseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMXTextShowTableReuseView.m; sourceTree = "<group>"; };
+		A1AED1381FC5623A00BA9424 /* IMXAPPLauncherKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXAPPLauncherKit.h; sourceTree = "<group>"; };
+		A1AED1391FC5623A00BA9424 /* IMXAPPService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXAPPService.h; sourceTree = "<group>"; };
+		A1AED13A1FC5623A00BA9424 /* IMXAPPServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXAPPServiceManager.h; sourceTree = "<group>"; };
+		A1AED13B1FC5623A00BA9424 /* IMXAPPServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMXAPPServiceManager.m; sourceTree = "<group>"; };
+		A1AED13C1FC5623A00BA9424 /* IMXEntryAPPDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXEntryAPPDelegate.h; sourceTree = "<group>"; };
+		A1AED13D1FC5623A00BA9424 /* IMXEntryAPPDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMXEntryAPPDelegate.m; sourceTree = "<group>"; };
+		A1AED13E1FC5623A00BA9424 /* IMXRootUIAPPService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXRootUIAPPService.h; sourceTree = "<group>"; };
+		A1AED13F1FC5623A00BA9424 /* IMXRootUIAPPService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMXRootUIAPPService.m; sourceTree = "<group>"; };
+		A1AED1AA1FC6A8F500BA9424 /* IMXTipsShowUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMXTipsShowUtil.h; sourceTree = "<group>"; };
+		A1AED1AB1FC6A8F500BA9424 /* IMXTipsShowUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMXTipsShowUtil.m; sourceTree = "<group>"; };
+		A1AED1B41FC6AE1A00BA9424 /* IMXPersistenceKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMXPersistenceKit.h; sourceTree = "<group>"; };
+		A1AED1B51FC6AE1A00BA9424 /* KeyChain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyChain.h; sourceTree = "<group>"; };
+		A1AED1B61FC6AE1A00BA9424 /* KeyChain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyChain.m; sourceTree = "<group>"; };
+		A1AED1B71FC6AE1A00BA9424 /* STKeychain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STKeychain.h; sourceTree = "<group>"; };
+		A1AED1B81FC6AE1A00BA9424 /* STKeychain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STKeychain.m; sourceTree = "<group>"; };
+		A1AED1BA1FC6AE7700BA9424 /* IMXDeviceUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMXDeviceUtil.h; sourceTree = "<group>"; };
+		A1AED1BB1FC6AE7700BA9424 /* IMXDeviceUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMXDeviceUtil.m; sourceTree = "<group>"; };
+		A1AED1BD1FC6AEDD00BA9424 /* NSString+IMXSecurityFork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+IMXSecurityFork.h"; sourceTree = "<group>"; };
+		A1AED1BE1FC6AEDD00BA9424 /* NSString+IMXSecurityFork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+IMXSecurityFork.m"; sourceTree = "<group>"; };
+		A1AED1BF1FC6AF0800BA9424 /* IMXSecurityKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMXSecurityKit.h; sourceTree = "<group>"; };
+		A1E5AB711FD5227A00F94B02 /* IMXBaseCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMXBaseCollectionViewCell.h; sourceTree = "<group>"; };
+		A1E5AB721FD5227A00F94B02 /* IMXBaseCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMXBaseCollectionViewCell.m; sourceTree = "<group>"; };
+		A1E5AB791FD522BA00F94B02 /* IMXCollectionReuseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMXCollectionReuseView.h; sourceTree = "<group>"; };
+		A1E5AB7A1FD522BA00F94B02 /* IMXCollectionReuseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMXCollectionReuseView.m; sourceTree = "<group>"; };
+		A1E5AB7D1FD5234A00F94B02 /* IMXBaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMXBaseTableViewCell.h; sourceTree = "<group>"; };
+		A1E5AB7E1FD5234A00F94B02 /* IMXBaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMXBaseTableViewCell.m; sourceTree = "<group>"; };
+		A1E5AB811FD529A700F94B02 /* IMXUITableReuseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMXUITableReuseView.h; sourceTree = "<group>"; };
+		A1E5AB821FD529A700F94B02 /* IMXUITableReuseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMXUITableReuseView.m; sourceTree = "<group>"; };
+		A1E5ABAD1FD555A400F94B02 /* IMXPaddingTableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMXPaddingTableCell.h; sourceTree = "<group>"; };
+		A1E5ABAE1FD555A400F94B02 /* IMXPaddingTableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMXPaddingTableCell.m; sourceTree = "<group>"; };
+		A1E5ABC01FD566CD00F94B02 /* IMXButtonTableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMXButtonTableCell.h; sourceTree = "<group>"; };
+		A1E5ABC11FD566CD00F94B02 /* IMXButtonTableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMXButtonTableCell.m; sourceTree = "<group>"; };
+		A1EA55941FD8F129003354EF /* IMXBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMXBaseModel.h; sourceTree = "<group>"; };
+		A1EA55951FD8F129003354EF /* IMXBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMXBaseModel.m; sourceTree = "<group>"; };
+		A1EA559F1FD913BE003354EF /* IMXSingleTextTableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMXSingleTextTableCell.h; sourceTree = "<group>"; };
+		A1EA55A01FD913BE003354EF /* IMXSingleTextTableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMXSingleTextTableCell.m; sourceTree = "<group>"; };
+		E728C7EA1FE111E5009C2DD5 /* IMXTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMXTimer.h; sourceTree = "<group>"; };
+		E728C7EB1FE111E5009C2DD5 /* IMXTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMXTimer.m; sourceTree = "<group>"; };
+		E728C7FB1FE1407A009C2DD5 /* NSDate+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
+		E728C7FC1FE1407A009C2DD5 /* NSDate+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
+		E728C8101FE15434009C2DD5 /* UIScrollView+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Extension.h"; sourceTree = "<group>"; };
+		E728C8111FE15434009C2DD5 /* UIScrollView+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Extension.m"; sourceTree = "<group>"; };
+		E728C8421FE27CE3009C2DD5 /* IMXButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMXButton.h; sourceTree = "<group>"; };
+		E728C8431FE27CE3009C2DD5 /* IMXButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMXButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A13ABFB21F1F41C900A09D8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1133CA21F21E8D400D2A774 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				A143C1FC1F26E4D900E1FE5D /* 2nd */,
+				A143C1FD1F26E4D900E1FE5D /* 3rd */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		A1133CA71F21F3A700D2A774 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A1133CA81F21F3CF00D2A774 /* Cpts */ = {
+			isa = PBXGroup;
+			children = (
+				A1133CAA1F21F3F900D2A774 /* Funcs */,
+				A1133CA91F21F3E600D2A774 /* UIs */,
+			);
+			path = Cpts;
+			sourceTree = "<group>";
+		};
+		A1133CA91F21F3E600D2A774 /* UIs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIs;
+			sourceTree = "<group>";
+		};
+		A1133CAA1F21F3F900D2A774 /* Funcs */ = {
+			isa = PBXGroup;
+			children = (
+				A1EA55931FD8F112003354EF /* IMXModel */,
+				A16331641FCD60930045AEDB /* IMXValidator */,
+				A171A1091FC2CED500CC6C6A /* IMXStyleKit */,
+			);
+			path = Funcs;
+			sourceTree = "<group>";
+		};
+		A1133CAB1F21F42100D2A774 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		A1133CAC1F21F8AE00D2A774 /* Biz */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Biz;
+			sourceTree = "<group>";
+		};
+		A13ABFAC1F1F41C900A09D8B = {
+			isa = PBXGroup;
+			children = (
+				A13ABFB81F1F41C900A09D8B /* IMXBaseCpt */,
+				A13ABFB71F1F41C900A09D8B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A13ABFB71F1F41C900A09D8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A13ABFB61F1F41C900A09D8B /* IMXBaseCpt.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A13ABFB81F1F41C900A09D8B /* IMXBaseCpt */ = {
+			isa = PBXGroup;
+			children = (
+				A1133CAC1F21F8AE00D2A774 /* Biz */,
+				A1133CAB1F21F42100D2A774 /* Module */,
+				A1133CA81F21F3CF00D2A774 /* Cpts */,
+				A1133CA71F21F3A700D2A774 /* Utils */,
+				A1133CA21F21E8D400D2A774 /* Libs */,
+				A13ABFBA1F1F41CA00A09D8B /* Info.plist */,
+				A1133CA41F21E94B00D2A774 /* IMXBaseCpt-Prefix.pch */,
+				A1133CB61F21FC5700D2A774 /* IMXBaseCpt.h */,
+			);
+			path = IMXBaseCpt;
+			sourceTree = "<group>";
+		};
+		A143C1FC1F26E4D900E1FE5D /* 2nd */ = {
+			isa = PBXGroup;
+			children = (
+				E728C7E91FE111CA009C2DD5 /* IMXTimer */,
+				A19F47A81FD0F70A00527199 /* IMXSafeAreaKit */,
+				A19F47941FD0EF6F00527199 /* IMXSegmentKit */,
+				A16331741FCEA6E70045AEDB /* IMXListView */,
+				A163315D1FCD5E500045AEDB /* IMXUIs */,
+				A16331051FCD2D3D0045AEDB /* IMXTabBarKit */,
+				A1AED1BC1FC6AEBC00BA9424 /* IMXSecurity */,
+				A1AED1B91FC6AE7700BA9424 /* IMXDeviceInfo */,
+				A1AED1B31FC6AE1A00BA9424 /* Persistence */,
+				A1AED1A91FC6A8F500BA9424 /* IMXTips */,
+				A1AED1371FC5623A00BA9424 /* Launcher */,
+				A171A1281FC2CEDC00CC6C6A /* ImxExtensionKit */,
+				A171A11B1FC2CEDC00CC6C6A /* MVIP */,
+			);
+			path = 2nd;
+			sourceTree = "<group>";
+		};
+		A143C1FD1F26E4D900E1FE5D /* 3rd */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 3rd;
+			sourceTree = "<group>";
+		};
+		A16331051FCD2D3D0045AEDB /* IMXTabBarKit */ = {
+			isa = PBXGroup;
+			children = (
+				A16331081FCD2DB10045AEDB /* IMXTabBar.h */,
+				A16331061FCD2DAE0045AEDB /* IMXTabBar.m */,
+				A163310C1FCD2DB30045AEDB /* IMXTabBarItem.h */,
+				A163310A1FCD2DB20045AEDB /* IMXTabBarItem.m */,
+				A163310D1FCD2DB40045AEDB /* IMXTabbarItemModel.h */,
+				A16331071FCD2DB00045AEDB /* IMXTabbarItemModel.m */,
+				A163310B1FCD2DB20045AEDB /* IMXTabBarViewController.h */,
+				A16331091FCD2DB10045AEDB /* IMXTabBarViewController.m */,
+				A16331161FCD2DF00045AEDB /* IMXTabBarKit.h */,
+			);
+			path = IMXTabBarKit;
+			sourceTree = "<group>";
+		};
+		A163315D1FCD5E500045AEDB /* IMXUIs */ = {
+			isa = PBXGroup;
+			children = (
+				A16331601FCD5E680045AEDB /* IMXLineView.h */,
+				A163315E1FCD5E680045AEDB /* IMXLineView.m */,
+				A163315F1FCD5E680045AEDB /* IMXUIsKit.h */,
+				A1AB4FBB1FE0D03B0026F74D /* IMXFlatButton.h */,
+				A1AB4FBC1FE0D03B0026F74D /* IMXFlatButton.m */,
+				A13E5D3A1FE2AB1C00FCE357 /* IMXTextView.h */,
+				A13E5D3B1FE2AB1C00FCE357 /* IMXTextView.m */,
+				E728C8421FE27CE3009C2DD5 /* IMXButton.h */,
+				E728C8431FE27CE3009C2DD5 /* IMXButton.m */,
+				A11D2DAA1FEB8CD00022B274 /* IMXNoPasteTextField.h */,
+				A11D2DAB1FEB8CD00022B274 /* IMXNoPasteTextField.m */,
+			);
+			path = IMXUIs;
+			sourceTree = "<group>";
+		};
+		A16331641FCD60930045AEDB /* IMXValidator */ = {
+			isa = PBXGroup;
+			children = (
+				A16331651FCD60930045AEDB /* IMXValidator.h */,
+				A16331661FCD60930045AEDB /* IMXValidator.m */,
+			);
+			path = IMXValidator;
+			sourceTree = "<group>";
+		};
+		A16331741FCEA6E70045AEDB /* IMXListView */ = {
+			isa = PBXGroup;
+			children = (
+				A17BA0001FDA948F005FB380 /* Layout */,
+				A1E5AB6F1FD521FE00F94B02 /* IMXReuseUIs */,
+				A16331751FCEA70E0045AEDB /* IMXTableView.h */,
+				A16331761FCEA70E0045AEDB /* IMXTableView.m */,
+				A16331791FCEAB020045AEDB /* IMXListViewDefine.h */,
+				A163317A1FCEBB3E0045AEDB /* IMXCollectionView.h */,
+				A163317B1FCEBB3E0045AEDB /* IMXCollectionView.m */,
+				A163317E1FCEC0B60045AEDB /* IMXListViewKit.h */,
+			);
+			path = IMXListView;
+			sourceTree = "<group>";
+		};
+		A171A1091FC2CED500CC6C6A /* IMXStyleKit */ = {
+			isa = PBXGroup;
+			children = (
+				A171A10A1FC2CED500CC6C6A /* IMXColor */,
+				A171A10D1FC2CED500CC6C6A /* IMXFont */,
+				A171A1101FC2CED500CC6C6A /* IMXIconfont */,
+				A171A1131FC2CED500CC6C6A /* IMXStyleKit.h */,
+			);
+			path = IMXStyleKit;
+			sourceTree = "<group>";
+		};
+		A171A10A1FC2CED500CC6C6A /* IMXColor */ = {
+			isa = PBXGroup;
+			children = (
+				A171A10B1FC2CED500CC6C6A /* UIColor+IMXColorKit.h */,
+				A171A10C1FC2CED500CC6C6A /* UIColor+IMXColorKit.m */,
+			);
+			path = IMXColor;
+			sourceTree = "<group>";
+		};
+		A171A10D1FC2CED500CC6C6A /* IMXFont */ = {
+			isa = PBXGroup;
+			children = (
+				A171A10E1FC2CED500CC6C6A /* UIFont+IMXFontKit.h */,
+				A171A10F1FC2CED500CC6C6A /* UIFont+IMXFontKit.m */,
+			);
+			path = IMXFont;
+			sourceTree = "<group>";
+		};
+		A171A1101FC2CED500CC6C6A /* IMXIconfont */ = {
+			isa = PBXGroup;
+			children = (
+				A171A1111FC2CED500CC6C6A /* IMXIconfont.h */,
+				A171A1121FC2CED500CC6C6A /* IMXIconfont.m */,
+			);
+			path = IMXIconfont;
+			sourceTree = "<group>";
+		};
+		A171A11B1FC2CEDC00CC6C6A /* MVIP */ = {
+			isa = PBXGroup;
+			children = (
+				A171A11C1FC2CEDC00CC6C6A /* IMXMVIP.h */,
+				A171A11D1FC2CEDC00CC6C6A /* Interactor */,
+				A171A1211FC2CEDC00CC6C6A /* Model */,
+				A171A1221FC2CEDC00CC6C6A /* Presenter */,
+				A171A1271FC2CEDC00CC6C6A /* View */,
+			);
+			path = MVIP;
+			sourceTree = "<group>";
+		};
+		A171A11D1FC2CEDC00CC6C6A /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				A171A11E1FC2CEDC00CC6C6A /* MTXBaseInteractor.h */,
+				A171A11F1FC2CEDC00CC6C6A /* MTXBaseInteractor.m */,
+				A171A1201FC2CEDC00CC6C6A /* MTXInteractorProtocol.h */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		A171A1211FC2CEDC00CC6C6A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A171A1221FC2CEDC00CC6C6A /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A171A1231FC2CEDC00CC6C6A /* MTXBasePresenter.h */,
+				A171A1241FC2CEDC00CC6C6A /* MTXBasePresenter.m */,
+				A171A1251FC2CEDC00CC6C6A /* MTXPresenterDelegate.h */,
+				A171A1261FC2CEDC00CC6C6A /* MTXPresenterProtocol.h */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A171A1271FC2CEDC00CC6C6A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A171A1281FC2CEDC00CC6C6A /* ImxExtensionKit */ = {
+			isa = PBXGroup;
+			children = (
+				A171A1291FC2CEDC00CC6C6A /* ObjectExt */,
+				A171A13B1FC2CEDC00CC6C6A /* UIKitExt */,
+			);
+			path = ImxExtensionKit;
+			sourceTree = "<group>";
+		};
+		A171A1291FC2CEDC00CC6C6A /* ObjectExt */ = {
+			isa = PBXGroup;
+			children = (
+				A171A12A1FC2CEDC00CC6C6A /* ExtObjc */,
+				A171A12E1FC2CEDC00CC6C6A /* IMXObjectExtUtil.h */,
+				A171A12F1FC2CEDC00CC6C6A /* NSArray+IMXSafeCheck.h */,
+				A171A1301FC2CEDC00CC6C6A /* NSArray+IMXSafeCheck.m */,
+				A171A1311FC2CEDC00CC6C6A /* NSAttributedString+IMXHighlightKit.h */,
+				A171A1321FC2CEDC00CC6C6A /* NSAttributedString+IMXHighlightKit.m */,
+				A171A1331FC2CEDC00CC6C6A /* NSDictionary+IMXSafeCheck.h */,
+				A171A1341FC2CEDC00CC6C6A /* NSDictionary+IMXSafeCheck.m */,
+				A171A1351FC2CEDC00CC6C6A /* NSObject+IMXExtFork.h */,
+				A171A1361FC2CEDC00CC6C6A /* NSObject+IMXExtFork.m */,
+				A171A1371FC2CEDC00CC6C6A /* NSString+IMXFormatCheck.h */,
+				A171A1381FC2CEDC00CC6C6A /* NSString+IMXFormatCheck.m */,
+				A171A1391FC2CEDC00CC6C6A /* NSString+IMXSafeCheck.h */,
+				A171A13A1FC2CEDC00CC6C6A /* NSString+IMXSafeCheck.m */,
+				E728C7FB1FE1407A009C2DD5 /* NSDate+Extension.h */,
+				E728C7FC1FE1407A009C2DD5 /* NSDate+Extension.m */,
+			);
+			path = ObjectExt;
+			sourceTree = "<group>";
+		};
+		A171A12A1FC2CEDC00CC6C6A /* ExtObjc */ = {
+			isa = PBXGroup;
+			children = (
+				A171A12B1FC2CEDC00CC6C6A /* EXTScope.h */,
+				A171A12C1FC2CEDC00CC6C6A /* EXTScope.m */,
+				A171A12D1FC2CEDC00CC6C6A /* metamacros.h */,
+			);
+			path = ExtObjc;
+			sourceTree = "<group>";
+		};
+		A171A13B1FC2CEDC00CC6C6A /* UIKitExt */ = {
+			isa = PBXGroup;
+			children = (
+				A171A13C1FC2CEDC00CC6C6A /* IMXUIKitExtUtil.h */,
+				A171A13D1FC2CEDC00CC6C6A /* UIImage+IMXExtFork.h */,
+				A171A13E1FC2CEDC00CC6C6A /* UIImage+IMXExtFork.m */,
+				A171A13F1FC2CEDC00CC6C6A /* UIView+IMXFrameFork.h */,
+				A171A1401FC2CEDC00CC6C6A /* UIView+IMXFrameFork.m */,
+				A171A1411FC2CEDC00CC6C6A /* UIViewController+IMXExtFork.h */,
+				A171A1421FC2CEDC00CC6C6A /* UIViewController+IMXExtFork.m */,
+				E728C8101FE15434009C2DD5 /* UIScrollView+Extension.h */,
+				E728C8111FE15434009C2DD5 /* UIScrollView+Extension.m */,
+			);
+			path = UIKitExt;
+			sourceTree = "<group>";
+		};
+		A17BA0001FDA948F005FB380 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				A17BA0031FDA94FB005FB380 /* IMXCollectionViewTagsFlowLayout.h */,
+				A17BA0041FDA94FB005FB380 /* IMXCollectionViewTagsFlowLayout.m */,
+				A17BA0021FDA9498005FB380 /* CHTCollectionViewWaterfallLayout.h */,
+				A17BA0011FDA9498005FB380 /* CHTCollectionViewWaterfallLayout.m */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		A19F47941FD0EF6F00527199 /* IMXSegmentKit */ = {
+			isa = PBXGroup;
+			children = (
+				A19F47981FD0EFAF00527199 /* IMXSegBaseCell.h */,
+				A19F479C1FD0EFB000527199 /* IMXSegBaseCell.m */,
+				A19F479A1FD0EFAF00527199 /* IMXSegCollectionView.h */,
+				A19F47991FD0EFAF00527199 /* IMXSegCollectionView.m */,
+				A19F47971FD0EFAF00527199 /* IMXSegContainer.h */,
+				A19F479B1FD0EFAF00527199 /* IMXSegContainer.m */,
+				A19F47951FD0EFAE00527199 /* IMXSegmentModel.h */,
+				A19F47961FD0EFAF00527199 /* IMXSegmentModel.m */,
+				A19F47A51FD0EFC100527199 /* IMXSegmentKit.h */,
+			);
+			path = IMXSegmentKit;
+			sourceTree = "<group>";
+		};
+		A19F47A81FD0F70A00527199 /* IMXSafeAreaKit */ = {
+			isa = PBXGroup;
+			children = (
+				A19F47AD1FD0F82500527199 /* UIView+IMXSafeArea.h */,
+				A19F47AE1FD0F82500527199 /* UIView+IMXSafeArea.m */,
+				A19F47B31FD101DD00527199 /* UIViewController+IMXSafeArea.h */,
+				A19F47B41FD101DD00527199 /* UIViewController+IMXSafeArea.m */,
+				A19F47B11FD0F9F600527199 /* IMXSafeAreaKit.h */,
+			);
+			path = IMXSafeAreaKit;
+			sourceTree = "<group>";
+		};
+		A1AED1371FC5623A00BA9424 /* Launcher */ = {
+			isa = PBXGroup;
+			children = (
+				A1AED1381FC5623A00BA9424 /* IMXAPPLauncherKit.h */,
+				A1AED1391FC5623A00BA9424 /* IMXAPPService.h */,
+				A1AED13A1FC5623A00BA9424 /* IMXAPPServiceManager.h */,
+				A1AED13B1FC5623A00BA9424 /* IMXAPPServiceManager.m */,
+				A1AED13C1FC5623A00BA9424 /* IMXEntryAPPDelegate.h */,
+				A1AED13D1FC5623A00BA9424 /* IMXEntryAPPDelegate.m */,
+				A1AED13E1FC5623A00BA9424 /* IMXRootUIAPPService.h */,
+				A1AED13F1FC5623A00BA9424 /* IMXRootUIAPPService.m */,
+			);
+			path = Launcher;
+			sourceTree = "<group>";
+		};
+		A1AED1A91FC6A8F500BA9424 /* IMXTips */ = {
+			isa = PBXGroup;
+			children = (
+				A1AED1AA1FC6A8F500BA9424 /* IMXTipsShowUtil.h */,
+				A1AED1AB1FC6A8F500BA9424 /* IMXTipsShowUtil.m */,
+			);
+			path = IMXTips;
+			sourceTree = "<group>";
+		};
+		A1AED1B31FC6AE1A00BA9424 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				A1AED1B41FC6AE1A00BA9424 /* IMXPersistenceKit.h */,
+				A1AED1B51FC6AE1A00BA9424 /* KeyChain.h */,
+				A1AED1B61FC6AE1A00BA9424 /* KeyChain.m */,
+				A1AED1B71FC6AE1A00BA9424 /* STKeychain.h */,
+				A1AED1B81FC6AE1A00BA9424 /* STKeychain.m */,
+				A17BA00C1FDA9705005FB380 /* IMXArchiverUtil.h */,
+				A17BA00D1FDA9705005FB380 /* IMXArchiverUtil.m */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		A1AED1B91FC6AE7700BA9424 /* IMXDeviceInfo */ = {
+			isa = PBXGroup;
+			children = (
+				A1AED1BA1FC6AE7700BA9424 /* IMXDeviceUtil.h */,
+				A1AED1BB1FC6AE7700BA9424 /* IMXDeviceUtil.m */,
+			);
+			path = IMXDeviceInfo;
+			sourceTree = "<group>";
+		};
+		A1AED1BC1FC6AEBC00BA9424 /* IMXSecurity */ = {
+			isa = PBXGroup;
+			children = (
+				A1AED1BD1FC6AEDD00BA9424 /* NSString+IMXSecurityFork.h */,
+				A1AED1BE1FC6AEDD00BA9424 /* NSString+IMXSecurityFork.m */,
+				A1AED1BF1FC6AF0800BA9424 /* IMXSecurityKit.h */,
+			);
+			path = IMXSecurity;
+			sourceTree = "<group>";
+		};
+		A1E5AB6F1FD521FE00F94B02 /* IMXReuseUIs */ = {
+			isa = PBXGroup;
+			children = (
+				A1E5ABAC1FD5554A00F94B02 /* IMXColReuseView */,
+				A1E5ABAB1FD5553D00F94B02 /* IMXColCell */,
+				A1E5ABAA1FD5552900F94B02 /* IMXTableReuseView */,
+				A1E5ABA91FD5551900F94B02 /* IMXTableCell */,
+				A1E5AB711FD5227A00F94B02 /* IMXBaseCollectionViewCell.h */,
+				A1E5AB721FD5227A00F94B02 /* IMXBaseCollectionViewCell.m */,
+				A1E5AB7D1FD5234A00F94B02 /* IMXBaseTableViewCell.h */,
+				A1E5AB7E1FD5234A00F94B02 /* IMXBaseTableViewCell.m */,
+				A1E5AB811FD529A700F94B02 /* IMXUITableReuseView.h */,
+				A1E5AB791FD522BA00F94B02 /* IMXCollectionReuseView.h */,
+				A1E5AB821FD529A700F94B02 /* IMXUITableReuseView.m */,
+				A1E5AB7A1FD522BA00F94B02 /* IMXCollectionReuseView.m */,
+			);
+			path = IMXReuseUIs;
+			sourceTree = "<group>";
+		};
+		A1E5ABA91FD5551900F94B02 /* IMXTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				A1E5ABAD1FD555A400F94B02 /* IMXPaddingTableCell.h */,
+				A1E5ABAE1FD555A400F94B02 /* IMXPaddingTableCell.m */,
+				A1E5ABC01FD566CD00F94B02 /* IMXButtonTableCell.h */,
+				A1E5ABC11FD566CD00F94B02 /* IMXButtonTableCell.m */,
+				A1EA559F1FD913BE003354EF /* IMXSingleTextTableCell.h */,
+				A1EA55A01FD913BE003354EF /* IMXSingleTextTableCell.m */,
+			);
+			path = IMXTableCell;
+			sourceTree = "<group>";
+		};
+		A1E5ABAA1FD5552900F94B02 /* IMXTableReuseView */ = {
+			isa = PBXGroup;
+			children = (
+				A1AE2BC11FEA6F4400520978 /* IMXTextShowTableReuseView.h */,
+				A1AE2BC21FEA6F4400520978 /* IMXTextShowTableReuseView.m */,
+			);
+			path = IMXTableReuseView;
+			sourceTree = "<group>";
+		};
+		A1E5ABAB1FD5553D00F94B02 /* IMXColCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = IMXColCell;
+			sourceTree = "<group>";
+		};
+		A1E5ABAC1FD5554A00F94B02 /* IMXColReuseView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = IMXColReuseView;
+			sourceTree = "<group>";
+		};
+		A1EA55931FD8F112003354EF /* IMXModel */ = {
+			isa = PBXGroup;
+			children = (
+				A1EA55941FD8F129003354EF /* IMXBaseModel.h */,
+				A1EA55951FD8F129003354EF /* IMXBaseModel.m */,
+			);
+			path = IMXModel;
+			sourceTree = "<group>";
+		};
+		E728C7E91FE111CA009C2DD5 /* IMXTimer */ = {
+			isa = PBXGroup;
+			children = (
+				E728C7EA1FE111E5009C2DD5 /* IMXTimer.h */,
+				E728C7EB1FE111E5009C2DD5 /* IMXTimer.m */,
+			);
+			path = IMXTimer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A13ABFB31F1F41C900A09D8B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A171A14E1FC2CEDC00CC6C6A /* IMXObjectExtUtil.h in Headers */,
+				A19F47A71FD0F49B00527199 /* IMXListViewDefine.h in Headers */,
+				A171A14D1FC2CEDC00CC6C6A /* metamacros.h in Headers */,
+				A171A1471FC2CEDC00CC6C6A /* MTXBasePresenter.h in Headers */,
+				A171A15B1FC2CEDC00CC6C6A /* IMXUIKitExtUtil.h in Headers */,
+				A171A15E1FC2CEDC00CC6C6A /* UIView+IMXFrameFork.h in Headers */,
+				A171A1141FC2CED500CC6C6A /* UIColor+IMXColorKit.h in Headers */,
+				A171A1591FC2CEDC00CC6C6A /* NSString+IMXSafeCheck.h in Headers */,
+				A171A1511FC2CEDC00CC6C6A /* NSAttributedString+IMXHighlightKit.h in Headers */,
+				A171A1431FC2CEDC00CC6C6A /* IMXMVIP.h in Headers */,
+				A171A1551FC2CEDC00CC6C6A /* NSObject+IMXExtFork.h in Headers */,
+				A171A14F1FC2CEDC00CC6C6A /* NSArray+IMXSafeCheck.h in Headers */,
+				A171A1181FC2CED500CC6C6A /* IMXIconfont.h in Headers */,
+				A171A1461FC2CEDC00CC6C6A /* MTXInteractorProtocol.h in Headers */,
+				A171A1161FC2CED500CC6C6A /* UIFont+IMXFontKit.h in Headers */,
+				A171A1491FC2CEDC00CC6C6A /* MTXPresenterDelegate.h in Headers */,
+				A1133CB91F21FCCF00D2A774 /* IMXBaseCpt.h in Headers */,
+				A171A1441FC2CEDC00CC6C6A /* MTXBaseInteractor.h in Headers */,
+				A1AED1411FC5623A00BA9424 /* IMXAPPService.h in Headers */,
+				A1AED1401FC5623A00BA9424 /* IMXAPPLauncherKit.h in Headers */,
+				A1AED1441FC5623A00BA9424 /* IMXEntryAPPDelegate.h in Headers */,
+				A1AED1421FC5623A00BA9424 /* IMXAPPServiceManager.h in Headers */,
+				A1AED1461FC5623A00BA9424 /* IMXRootUIAPPService.h in Headers */,
+				A171A14A1FC2CEDC00CC6C6A /* MTXPresenterProtocol.h in Headers */,
+				A1AED1C21FC6AF9900BA9424 /* IMXSecurityKit.h in Headers */,
+				A171A15C1FC2CEDC00CC6C6A /* UIImage+IMXExtFork.h in Headers */,
+				A16331141FCD2DB50045AEDB /* IMXTabBarItem.h in Headers */,
+				A16331171FCD2DF30045AEDB /* IMXTabBarKit.h in Headers */,
+				A16331131FCD2DB50045AEDB /* IMXTabBarViewController.h in Headers */,
+				A16331101FCD2DB50045AEDB /* IMXTabBar.h in Headers */,
+				A16331151FCD2DB50045AEDB /* IMXTabbarItemModel.h in Headers */,
+				A1AED1C71FC6AFB800BA9424 /* IMXPersistenceKit.h in Headers */,
+				A1AED1C91FC6AFBC00BA9424 /* IMXDeviceUtil.h in Headers */,
+				A1AED1C01FC6AF9200BA9424 /* NSString+IMXSecurityFork.h in Headers */,
+				A1AED1AD1FC6AA4000BA9424 /* IMXTipsShowUtil.h in Headers */,
+				A1AED1C61FC6AFB500BA9424 /* KeyChain.h in Headers */,
+				A171A1571FC2CEDC00CC6C6A /* NSString+IMXFormatCheck.h in Headers */,
+				A1AED1C41FC6AFAE00BA9424 /* STKeychain.h in Headers */,
+				A171A1601FC2CEDC00CC6C6A /* UIViewController+IMXExtFork.h in Headers */,
+				A163317F1FCEC0BF0045AEDB /* IMXListViewKit.h in Headers */,
+				A16331771FCEA70E0045AEDB /* IMXTableView.h in Headers */,
+				A19F479F1FD0EFB000527199 /* IMXSegContainer.h in Headers */,
+				A19F47A21FD0EFB000527199 /* IMXSegCollectionView.h in Headers */,
+				A19F479D1FD0EFB000527199 /* IMXSegmentModel.h in Headers */,
+				A19F47A01FD0EFB000527199 /* IMXSegBaseCell.h in Headers */,
+				A19F47A61FD0F0D200527199 /* IMXSegmentKit.h in Headers */,
+				A16331611FCD5E9F0045AEDB /* IMXUIsKit.h in Headers */,
+				A19F47B21FD0FA0A00527199 /* IMXSafeAreaKit.h in Headers */,
+				A19F47AF1FD0F82500527199 /* UIView+IMXSafeArea.h in Headers */,
+				A16331671FCD60A00045AEDB /* IMXValidator.h in Headers */,
+				A171A11A1FC2CED500CC6C6A /* IMXStyleKit.h in Headers */,
+				A1E5AB7B1FD522BA00F94B02 /* IMXCollectionReuseView.h in Headers */,
+				A1E5AB831FD529A700F94B02 /* IMXUITableReuseView.h in Headers */,
+				A163317C1FCEBB3E0045AEDB /* IMXCollectionView.h in Headers */,
+				A1E5AB7F1FD5234A00F94B02 /* IMXBaseTableViewCell.h in Headers */,
+				A16331631FCD5EB40045AEDB /* IMXLineView.h in Headers */,
+				A1E5AB731FD5227A00F94B02 /* IMXBaseCollectionViewCell.h in Headers */,
+				A171A14B1FC2CEDC00CC6C6A /* EXTScope.h in Headers */,
+				A1E5ABC21FD566CD00F94B02 /* IMXButtonTableCell.h in Headers */,
+				A1E5ABAF1FD555A400F94B02 /* IMXPaddingTableCell.h in Headers */,
+				A1EA55A11FD913BE003354EF /* IMXSingleTextTableCell.h in Headers */,
+				A17BA0061FDA9532005FB380 /* IMXCollectionViewTagsFlowLayout.h in Headers */,
+				A17BA00E1FDA9705005FB380 /* IMXArchiverUtil.h in Headers */,
+				A1AB4FBD1FE0D03B0026F74D /* IMXFlatButton.h in Headers */,
+				A17BA0071FDA9534005FB380 /* CHTCollectionViewWaterfallLayout.h in Headers */,
+				A1EA55961FD8F12D003354EF /* IMXBaseModel.h in Headers */,
+				E728C7EC1FE111E5009C2DD5 /* IMXTimer.h in Headers */,
+				E728C7FD1FE1407A009C2DD5 /* NSDate+Extension.h in Headers */,
+				E728C8441FE27CE3009C2DD5 /* IMXButton.h in Headers */,
+				A1AE2BC31FEA6F4400520978 /* IMXTextShowTableReuseView.h in Headers */,
+				A13E5D3C1FE2AB1C00FCE357 /* IMXTextView.h in Headers */,
+				E728C8121FE15434009C2DD5 /* UIScrollView+Extension.h in Headers */,
+				A171A1531FC2CEDC00CC6C6A /* NSDictionary+IMXSafeCheck.h in Headers */,
+				A19F47B51FD101DD00527199 /* UIViewController+IMXSafeArea.h in Headers */,
+				A11D2DAC1FEB8CD00022B274 /* IMXNoPasteTextField.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A13ABFB51F1F41C900A09D8B /* IMXBaseCpt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A13ABFBE1F1F41CA00A09D8B /* Build configuration list for PBXNativeTarget "IMXBaseCpt" */;
+			buildPhases = (
+				A13ABFB11F1F41C900A09D8B /* Sources */,
+				A13ABFB21F1F41C900A09D8B /* Frameworks */,
+				A13ABFB31F1F41C900A09D8B /* Headers */,
+				A13ABFB41F1F41C900A09D8B /* Resources */,
+				A13ABFC11F1F48E000A09D8B /* ShellScript */,
+				A1133C161F1F584700D2A774 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IMXBaseCpt;
+			productName = IMXBaseCpt;
+			productReference = A13ABFB61F1F41C900A09D8B /* IMXBaseCpt.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A13ABFAD1F1F41C900A09D8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = panzhow;
+				TargetAttributes = {
+					A1133C1C1F1F5D4800D2A774 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					A13ABFB51F1F41C900A09D8B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A13ABFB01F1F41C900A09D8B /* Build configuration list for PBXProject "IMXBaseCpt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A13ABFAC1F1F41C900A09D8B;
+			productRefGroup = A13ABFB71F1F41C900A09D8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A13ABFB51F1F41C900A09D8B /* IMXBaseCpt */,
+				A1133C1C1F1F5D4800D2A774 /* IMXBaseCptAgg */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A13ABFB41F1F41C900A09D8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A1133C201F1F5D5B00D2A774 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "FMK_NAME=IMXBaseCpt\n# Install dir will be the final output tothe framework.\n# The following line create it in the rootfolder of the current project.\nINSTALL_DIR=${SRCROOT}/../Apps/${FMK_NAME}.framework\n\n# Working dir will be deleted after theframework creation.\nWRK_DIR=build\nDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework\nSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework\n# -configuration ${CONFIGURATION}\n# Clean and Building both architectures.\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos clean build\nif [ \"${CONFIGURATION}\" = \"Debug\" ];\nthen\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator\nclean build\nfi\n# Cleaning the oldest.\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\nmkdir -p \"${INSTALL_DIR}\"\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n# Uses the Lipo Tool to merge both binaryfiles (i386 + armv6/armv7) into one Universal final product.\n\nif [ \"${CONFIGURATION}\" = \"Debug\" ];\nthen\nlipo -create \"${DEVICE_DIR}/${FMK_NAME}\" \"${SIMULATOR_DIR}/${FMK_NAME}\" -output \"${INSTALL_DIR}/${FMK_NAME}\"\nelse\nlipo -create \"${DEVICE_DIR}/${FMK_NAME}\" -output \"${INSTALL_DIR}/${FMK_NAME}\"\nfi\n\nrm -r \"${WRK_DIR}\"";
+		};
+		A13ABFC11F1F48E000A09D8B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A13ABFB11F1F41C900A09D8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A163310E1FCD2DB50045AEDB /* IMXTabBar.m in Sources */,
+				A16331681FCD60A20045AEDB /* IMXValidator.m in Sources */,
+				A1AED1C11FC6AF9400BA9424 /* NSString+IMXSecurityFork.m in Sources */,
+				E728C7ED1FE111E5009C2DD5 /* IMXTimer.m in Sources */,
+				A1AED1471FC5623A00BA9424 /* IMXRootUIAPPService.m in Sources */,
+				A1EA55A21FD913BE003354EF /* IMXSingleTextTableCell.m in Sources */,
+				A19F47B01FD0F82500527199 /* UIView+IMXSafeArea.m in Sources */,
+				A163310F1FCD2DB50045AEDB /* IMXTabbarItemModel.m in Sources */,
+				A171A1521FC2CEDC00CC6C6A /* NSAttributedString+IMXHighlightKit.m in Sources */,
+				A1E5AB7C1FD522BA00F94B02 /* IMXCollectionReuseView.m in Sources */,
+				A171A15D1FC2CEDC00CC6C6A /* UIImage+IMXExtFork.m in Sources */,
+				A19F47A11FD0EFB000527199 /* IMXSegCollectionView.m in Sources */,
+				A171A14C1FC2CEDC00CC6C6A /* EXTScope.m in Sources */,
+				A1AED1451FC5623A00BA9424 /* IMXEntryAPPDelegate.m in Sources */,
+				A1AED1AC1FC6A99300BA9424 /* IMXTipsShowUtil.m in Sources */,
+				A19F47A41FD0EFB000527199 /* IMXSegBaseCell.m in Sources */,
+				E728C7FE1FE1407A009C2DD5 /* NSDate+Extension.m in Sources */,
+				A19F47B61FD101DD00527199 /* UIViewController+IMXSafeArea.m in Sources */,
+				A171A1151FC2CED500CC6C6A /* UIColor+IMXColorKit.m in Sources */,
+				A171A1451FC2CEDC00CC6C6A /* MTXBaseInteractor.m in Sources */,
+				A1E5AB741FD5227A00F94B02 /* IMXBaseCollectionViewCell.m in Sources */,
+				A171A1611FC2CEDC00CC6C6A /* UIViewController+IMXExtFork.m in Sources */,
+				A1EA55971FD8F12D003354EF /* IMXBaseModel.m in Sources */,
+				A171A15A1FC2CEDC00CC6C6A /* NSString+IMXSafeCheck.m in Sources */,
+				A17BA0051FDA952F005FB380 /* IMXCollectionViewTagsFlowLayout.m in Sources */,
+				A1E5AB841FD529A700F94B02 /* IMXUITableReuseView.m in Sources */,
+				A171A1171FC2CED500CC6C6A /* UIFont+IMXFontKit.m in Sources */,
+				A171A1541FC2CEDC00CC6C6A /* NSDictionary+IMXSafeCheck.m in Sources */,
+				A11D2DAD1FEB8CD00022B274 /* IMXNoPasteTextField.m in Sources */,
+				A16331111FCD2DB50045AEDB /* IMXTabBarViewController.m in Sources */,
+				A171A1501FC2CEDC00CC6C6A /* NSArray+IMXSafeCheck.m in Sources */,
+				A171A1191FC2CED500CC6C6A /* IMXIconfont.m in Sources */,
+				A1AED1C51FC6AFB300BA9424 /* KeyChain.m in Sources */,
+				A1AE2BC41FEA6F4400520978 /* IMXTextShowTableReuseView.m in Sources */,
+				A171A1561FC2CEDC00CC6C6A /* NSObject+IMXExtFork.m in Sources */,
+				A1AED1431FC5623A00BA9424 /* IMXAPPServiceManager.m in Sources */,
+				A16331621FCD5EA40045AEDB /* IMXLineView.m in Sources */,
+				A171A1481FC2CEDC00CC6C6A /* MTXBasePresenter.m in Sources */,
+				E728C8131FE15434009C2DD5 /* UIScrollView+Extension.m in Sources */,
+				A17BA0081FDA9536005FB380 /* CHTCollectionViewWaterfallLayout.m in Sources */,
+				A171A1581FC2CEDC00CC6C6A /* NSString+IMXFormatCheck.m in Sources */,
+				A1E5ABC31FD566CD00F94B02 /* IMXButtonTableCell.m in Sources */,
+				A171A15F1FC2CEDC00CC6C6A /* UIView+IMXFrameFork.m in Sources */,
+				A16331781FCEA70E0045AEDB /* IMXTableView.m in Sources */,
+				A163317D1FCEBB3E0045AEDB /* IMXCollectionView.m in Sources */,
+				A1E5ABB01FD555A400F94B02 /* IMXPaddingTableCell.m in Sources */,
+				A16331121FCD2DB50045AEDB /* IMXTabBarItem.m in Sources */,
+				A13E5D3D1FE2AB1C00FCE357 /* IMXTextView.m in Sources */,
+				A1AED1C81FC6AFBA00BA9424 /* IMXDeviceUtil.m in Sources */,
+				A19F479E1FD0EFB000527199 /* IMXSegmentModel.m in Sources */,
+				E728C8451FE27CE3009C2DD5 /* IMXButton.m in Sources */,
+				A17BA00F1FDA9705005FB380 /* IMXArchiverUtil.m in Sources */,
+				A1AB4FBE1FE0D03B0026F74D /* IMXFlatButton.m in Sources */,
+				A1E5AB801FD5234A00F94B02 /* IMXBaseTableViewCell.m in Sources */,
+				A19F47A31FD0EFB000527199 /* IMXSegContainer.m in Sources */,
+				A1AED1C31FC6AFAB00BA9424 /* STKeychain.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A1133C1E1F1F5D4800D2A774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A1133C1F1F1F5D4800D2A774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A13ABFBC1F1F41CA00A09D8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A13ABFBD1F1F41CA00A09D8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A13ABFBF1F1F41CA00A09D8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ENABLE_MODULES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "../Apps/**";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT)/$(PROJECT)-Prefix.pch";
+				HEADER_SEARCH_PATHS = "../Pods/Headers/Public/**";
+				INFOPLIST_FILE = IMXBaseCpt/Info.plist;
+				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.--.--.IMXBaseCpt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = NO;
+			};
+			name = Debug;
+		};
+		A13ABFC01F1F41CA00A09D8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ENABLE_MODULES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "../Apps/**";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT)/$(PROJECT)-Prefix.pch";
+				HEADER_SEARCH_PATHS = "../Pods/Headers/Public/**";
+				INFOPLIST_FILE = IMXBaseCpt/Info.plist;
+				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.--.--.IMXBaseCpt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1133C1D1F1F5D4800D2A774 /* Build configuration list for PBXAggregateTarget "IMXBaseCptAgg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1133C1E1F1F5D4800D2A774 /* Debug */,
+				A1133C1F1F1F5D4800D2A774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A13ABFB01F1F41C900A09D8B /* Build configuration list for PBXProject "IMXBaseCpt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A13ABFBC1F1F41CA00A09D8B /* Debug */,
+				A13ABFBD1F1F41CA00A09D8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A13ABFBE1F1F41CA00A09D8B /* Build configuration list for PBXNativeTarget "IMXBaseCpt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A13ABFBF1F1F41CA00A09D8B /* Debug */,
+				A13ABFC01F1F41CA00A09D8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A13ABFAD1F1F41C900A09D8B /* Project object */;
+}

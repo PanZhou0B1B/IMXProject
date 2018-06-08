@@ -7,10 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "AppDelegate.h"
-
+#import <IMXFuncCpt/IMXAPPLauncherKit.h>
+#ifdef DEBUG
+//#import <IMXDebugModule/IMXFBPerformanceUtil.h>
+#endif
 int main(int argc, char * argv[]) {
+#ifdef DEBUG
+    //[IMXFBPerformanceUtil fbTrackEnableInMain];
+#endif
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([IMXEntryAPPDelegate class]));
     }
 }
